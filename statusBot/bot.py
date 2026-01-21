@@ -22,7 +22,7 @@ bot = MyBot()
 
 @bot.event
 async def on_ready():
-    activity = discord.Game(name="!ping | /ping | Service Working")
+    activity = discord.Game(name="!ping | /ping | Service Working and Updated")
     await bot.change_presence(status=discord.Status.online, activity=activity)
     print(f"✅ Logged in as {bot.user}")
 
